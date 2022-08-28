@@ -4,8 +4,7 @@ import CounterResult from './CounterResult'
 
 const Counter = () =>{
     return(
-        <div>
-            
+        <div className='counter'>
             <CounterResult/>
             <CounterAction/>
         </div>

@@ -1,3 +1,35 @@
+.counter{
+    border: 10px solid;
+    border-color:#6366F1;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .count{
     gap: 2px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color:#6366F1;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 5px;
+}
+button:hover{
+    background-color:#4F46E5;
+}
+.reset{
+    background-color: #EF4444;
+}
+.reset:hover{
+    background-color: #DC2626;
 }

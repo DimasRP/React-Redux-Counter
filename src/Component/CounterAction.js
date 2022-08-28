@@ -28,11 +28,11 @@ const CounterAction = () => {
     return(
         <div >
             <div className="count">
-                <button onClick={handlePlus}>Plus</button>
-                <button onClick={handleMinus}>Minus</button>
+                <button onClick={handlePlus}>+</button>
+                <button onClick={handleMinus}>-</button>
             </div>
             <div>
-                <button onClick={handleReset}>Reset</button>     
+                <button onClick={handleReset} className="reset">Reset</button>     
             </div>
         </div>
     )
